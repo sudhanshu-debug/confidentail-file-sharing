@@ -1,0 +1,34 @@
+{
+  "name": "confidentail-file-sharing",
+  "version": "1.0.0",
+  "description": "This project is the demonstration of the Advance-Encryption-Techniques like AES_GCM_256 and AES_CBC_256",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint --fix .  --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhanshu-debug/confidentail-file-sharing.git"
+  },
+  "author": "Sudhanshu Kumawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudhanshu-debug/confidentail-file-sharing/issues"
+  },
+  "homepage": "https://github.com/sudhanshu-debug/confidentail-file-sharing#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jest": "^27.1.7"
+  }
+}
